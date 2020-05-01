@@ -1,0 +1,5 @@
+We have to find the length of longest common subsequence between the two strings.
+The result will be l1 + l2 - l_lcs
+l1 - >Length of first String
+l2 - >Length of second String
+l_lcs - >Length of Longest COmmon Subsequence

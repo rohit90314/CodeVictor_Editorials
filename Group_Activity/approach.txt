@@ -1,0 +1,20 @@
+Though this problem can be solved using graphs, Disjoint would be a better choice. Graphs are bound to get TLE here, if not memory allocation error.
+
+Fact: each student belongs to exactly one group, thus the groups formed are disjoint.
+
+Thus we can represent the final sets formed using a Disjoint Set
+
+General idea about Disjoint sets: it stores sets in the form of a tree, and supports 2 operations: Union and Find. Union, merges 2 tree(sets) and Find gets the root(highest parent) in the tree.
+
+Algorithm:
+
+When the input says (u, v) belongs to the same group, we perform the disjoint-set-union operation. That is we merge the sets.
+
+When the input says (u, v) belong to different sets, we check if the root is not same for both u and v.
+
+Optimisations:
+
+It is recommended to implement the union operation in such a way that the tree formed has maximum height of 2. This way, the Find operation works in O(N) time.
+
+Feel free to post your queries in "Discussion" tab.
+Editorial and Solution Provided by : Mrunal Ahire

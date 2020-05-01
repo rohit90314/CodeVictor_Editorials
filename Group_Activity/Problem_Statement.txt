@@ -1,0 +1,45 @@
+Consider a class of N students (roll numbers 1 to N). The class teacher divided the students into groups for group activity. Now these mischievous students mixed all thr groups up. However, the class monitor remembers the pair of roll numbers of students who belonged to the same group and those pairs which did not belong to the same group. The class monitor isn't completely sure though. The class monitor has handed over these lists of pairs of roll numbers to the class teacher, and the class teacher is wondering if the list is correct(consistent).
+
+The pairs in the lists are of the form (u, v). (u, v) in the first list means, that students with roll number u and v belong to the same group. (u, v) in the second list implies that the students with roll numbers belong to dofferent groups.
+
+Your job is to tell if there is no such entry which contradicts another entry in the lists given by the monitor.
+
+Input Format
+
+First line contains an integer T, the number of test cases, and T tests follow. Each test case has 3 space separated integers N, K, L on the first line. N is the number of students, K is the number of entries in the list of pairs of students belonging to the same group, and L the size of second list (one which contains pairs of students which belong don't belong to the same group)
+
+Constraints
+
+1 <= T, N <= 10000
+
+1 <= K, L <= N*(N+1)/2
+
+Sum of (K+L) and N over all test cases in a test file do not exceed 10^5
+
+Output Format
+
+On a separate line for each test case print "YES" if the given lists are consistent, print "NO" otherwise.
+
+Sample Input 0
+
+2
+5 3 1
+1 2
+3 5
+3 1
+2 4
+5 3 2
+1 2
+3 5
+3 1
+2 4
+1 5
+Sample Output 0
+
+YES
+NO
+Explanation 0
+
+In first test case, the list of pairs of students in same group is [(1, 2), (3, 5), (3, 1)], thus the groups formed are [1, 2, 3, 5] and [4]. The list of pairs of students NOT in the same group is [(2, 4)]. Since 2 and 4 belong different groups, the information given by the class monitor's lists is correct.
+
+In the second case, the groups formed are: [1, 2, 3, 5] and [4], and according to the second list,1 and 5 should belong to different groups, but they are in the same group, so the lists aren't consistent, thus the given information by class monitor is wrong.

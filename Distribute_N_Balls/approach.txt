@@ -1,0 +1,1 @@
+The binary system can represent any number if they have sufficient number of bits. So had to just print the number of bits required to represent 'N'

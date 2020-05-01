@@ -1,0 +1,2 @@
+The question was summation(i*(n+1-i)) so when solving this summation you will get the result as (N*(N+1)*(N+2))/6. The ways to solve summation is also provided in this directory.
+

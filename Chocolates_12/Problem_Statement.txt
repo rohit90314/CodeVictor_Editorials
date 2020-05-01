@@ -1,0 +1,26 @@
+An NGO decided to distribute some chocolates for N days. The NGO decided to distribute chocolate in the following way. For the ith day (1<=i<=N), the NGO would disribute i chocolates to (N+1-i) kids. At the end of the Nth day the NGO wants to know how many chocolates they distributed in total. Can you help the NGO to find the total number of chocolates they distributed. The number can be very large print (result % 1000000007)
+
+Input Format
+
+First line contains number of Test Cases T The following T lines will contain a single Integer, N
+
+Constraints
+
+1<=N<=10^13
+
+Output Format
+
+A single Integer for each Test Case (Sum of Chocolates)
+
+Sample Input 0
+
+1
+2
+Sample Output 0
+
+4
+Explanation 0
+
+On Day1, Chocolates Distributed = 1*(2+1-1) = 2
+On Day2, Chocolates Distributed = 2*(2+1-2) = 2
+Total Chocolates = 2+2 = 4

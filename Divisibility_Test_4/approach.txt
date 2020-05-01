@@ -1,0 +1,13 @@
+Python sure does get AC for this problem effortlessly.
+
+This editorial goes through a C++ solution.
+
+Observation 1: the number may have 10000 digits and definitely wouldn't fit in a 32 or 64 integer.
+
+Solution: use string to store the number.
+
+Store the sum of digits at odd places, and even places separately. The answer is "YES" if (even+odd)%3==0 and (even-odd)%11==0
+
+IMPORTANT: DO NOT FORGET TO SKIP MINUS SIGN IN CASE OF NEGATIVE NUMBERS This was the only reason why C++ solutions failed.
+
+Editorial and Solution Provided by : Mrunal Ahire

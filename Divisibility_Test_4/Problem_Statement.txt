@@ -1,0 +1,29 @@
+You are given a number N. Print "YES" if N is divisible by 33, otherwise print "NO" (without quotes).
+
+Input Format
+
+First line contains a single integer T, the number test cases, and T lines follow. Each test case has one integer N on each line.
+
+Constraints
+
+1 <= T <= 10
+
+|N| <= 10^10^4
+
+Note that the number N can be too large, it can have upto 10000 digits!
+
+Output Format
+
+For each test case print "YES" or "NO" (without quotes) on separate lines.
+
+Sample Input 0
+
+3
+3993
+1728
+213114
+Sample Output 0
+
+YES
+NO
+YES

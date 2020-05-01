@@ -1,0 +1,45 @@
+Andy and his friends are bored during lockdown, and decided to play monopoly, but they don't have the game board and currency. So, they cut out chits of papers write numbers on them and use it as money. But, the question still remains can all possible sums of money be paid by the exchange of this currency. Assume there is unlimited supply of paper chits.
+
+Ex. suppose the denominations in their currency are [ 1, 2, 5, 10] this set of denominations is "perfect", because we can pay any amount by exchanging cash of these denominations. There are N denominations, given by the array D [D1, D2, D3, D4...Dn]
+
+Input Format
+
+First line contains an integer T, and T test cases follow
+
+First line of each test case has an integer N, the number of denominations
+
+The next line has N space separated integers D1, D2, ... Dn representing the denominations
+
+Constraints
+
+1 <= T <= 10000
+
+1 <= N <= 10000
+
+2 <= Di <= 10^9
+
+The sum of N over all test cases does not exceed 10^5
+
+Output Format
+
+Print "YES" if the set of denominations is perfect, otherwise print "NO" (without quotes) (You have to print "NO" if there exists atleast one non-negative integer S, such that the amount S cannot be paid by exchanging denominations from the given set)
+
+Sample Input 0
+
+1
+3
+2 5 10
+Sample Output 0
+
+YES
+Explanation 0
+
+The set of denominations is [2, 5, 10].
+
+Suppose A wants to pay ?1 to B, he can do so by handing over a ?5 chit to B and take two ?2 chits in return from B.
+
+For paying ?2, A can just give a ?2 chit to B.
+
+To pay ?3, A will give ?5 to B, and take ?2 in return.
+
+This way we can also prove that, any amount S can be paid by exchanging denominations of the given set, where S is a non-negative integer.

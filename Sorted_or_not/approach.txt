@@ -1,0 +1,1 @@
+Just sort the array in ascending and descending order and check if the given array is equal to any of the sorted array

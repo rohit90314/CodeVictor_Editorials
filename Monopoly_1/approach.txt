@@ -1,0 +1,20 @@
+The denominations are:
+
+D1, D2, D3, ... Dn
+The number of "paper chits" or "banknotes" of value Di given by A to B be Ci
+
+A gives C1 notes of value D1, C2 notes of value D2, ... Cn notes of value Dn.
+
+Thus, the total amount formed using these notes is:
+
+C1*D1 + C2*D2 + C3*D3 ... Cn*Dn
+Consider G, the GCD of the array D. We can get common factor g out of the above equation.
+
+G * (C1*D1/G + C2*D2/G ... Cn*Dn/G)
+Thus no matter what coefficients we choose in place of C1, C2...Cn, we can never get rid of the common factor G. Thus the result of the above equation will always be a multiple of G, and thus we can NOT make sums of money, which amount to a number whcih isn't a multiple of G.
+
+For the currency to be "prefect", The GCD(D1, D2, ... Dn) should be 1, i.e., the denomination values (face-values of paper money) should have no gactor in common.
+
+Feel free to post your queries in "Discussion" tab.
+
+Editorial and Solution Provided by : Mrunal Ahire

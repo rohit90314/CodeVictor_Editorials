@@ -1,0 +1,49 @@
+Santa must deliver the gifts at any cost.
+
+He has "n" number of gifts. He has to deliver "n" gifts to "n" different houses, 1 to each house.
+
+The houses are numbered from 1 to n and the gifts are numbered from 1 to n.
+
+For each i(1<=i<=n), the ith gift must be delivered to ith house. Each gift has a number on it.
+
+Gifts are kept in Santa's bag and are sorted (ascending) by their numbers. but santa does not know that they are sorted. He thinks that they are randomly put in the bag.
+
+But, when santa pulls the first gift(giftNo.1) out of his bag, it has no number on it. So santa delivers it to any random house.
+
+Now for next n-1 gifts santa does the following:
+
+see the number on the gift, say "i"(2<=i<=n)
+if ith house has already received a gift, give ith gift to another random house which has not received any gift.
+if ith house hasn't received a gift, give ith gift to ith house.
+Given n, find the probability that the house no. "n" gets the gift which was originally addressed to it.
+
+Input Format
+
+single integer, n
+
+Constraints
+
+1<=n<=1000
+
+Output Format
+
+single real number, probability
+
+Sample Input 0
+
+1
+Sample Output 0
+
+1
+Explanation 0
+
+probability to deliver giftNo.1 to houseNo.1 is 1 as there is only one house and one gift.
+Sample Input 1
+
+2
+Sample Output 1
+
+0.5
+Explanation 1
+
+probability to deliver giftNo.2 to houseNo.2 as there are 2 possible ways to distribute the gift as per the rules.

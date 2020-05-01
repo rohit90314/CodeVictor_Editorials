@@ -1,0 +1,34 @@
+amesh has n balls. He has to put n balls in K bags such that if Mahesh asks for m no. of balls (where 1 <= m <= n) then Ramesh can give him some combination from k bags which sum up to m balls. Ramesh wants to minimise this K. So can you help him?
+
+Input Format
+
+First line contains T i.e. No. of Test Cases Following T lines contains one single integer n
+
+Constraints
+
+1<=T<=10^5 1<=N<=10^18
+
+Output Format
+
+Print single integer k for each test case
+
+Sample Input 0
+
+1
+3
+Sample Output 0
+
+2
+Explanation 0
+
+Ramesh can distribute balls in 2 bags in following way.
+
+Bag 1 contains one ball
+
+Bag 2 contains two balls
+
+If mahesh asks for 1 ball then Ramesh can give him only Bag 1
+
+If mahesh asks for 2 balls then Ramesh can give him only Bag 2
+
+If Mahesh asks for 3 balls then Ramesh can give him both the Bags i.e. Bag 1 and Bag 2

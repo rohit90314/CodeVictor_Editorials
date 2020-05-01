@@ -1,0 +1,2 @@
+Divisibility Test of 160 is the number should be divisible by both 32 and 5. The divisiblity test of 32 says that the last 5 digits should be divisilbe by 32 and divisiblity test of 5 says that the last digit should be 5 or 0. Combining these two gives result the last 5 digits should be divisible by 32 and last digit should be 0. 
+So what we will precompute the numbers for n=1 to n=6. And for N>6 we will just multiply 10 for each digit. And there is one more twist in this question. For N=1 the answer will be 1. As 0 is a 1digit number and it is divisible by 160

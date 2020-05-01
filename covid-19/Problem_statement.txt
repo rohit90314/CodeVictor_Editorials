@@ -1,0 +1,38 @@
+DNA sequence of a virus is represented as a string of alphabets (all lower case).
+
+Viruses named covid-16 and covid-17 merge to form covid-18 such that
+
+dna sequence of covid-16 is subsequence of covid-18
+dna sequence of covid-17 is also a subsequence of covid-18
+Covid-18 then evolves into covid-19, such that
+
+covid-19 has the shortest possible dna sequence that satisfies conditions 1 and 2.
+Given dna sequences of covid-16 and covid-17, find the length of dna sequence of covid-19
+
+Input Format
+
+single line containing two space separated strings
+
+(representing dna sequences of covid-16 and covid-17 respectively)
+
+Constraints
+
+0<=dna_sequence_length<=5000
+
+Output Format
+
+single integer
+
+(length of dna sequence of covid-19)
+
+Sample Input 0
+
+abcd cdba
+Sample Output 0
+
+6
+Explanation 0
+
+DNA sequence for covid-18:"abcdba" or "abcdcdba" or "cdbaabcd", etc
+
+DNA sequence for covid-19 will be "abcdba", the shortest one.
